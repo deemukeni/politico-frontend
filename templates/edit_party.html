@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>List Political Parties</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="../css/app.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <!-- put navbar here -->
+            <div class="banner">Politico</div>
+            <div class="username">Admin</div>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <!-- to contain sidebar menu -->
+                <div class="sidebar-menu">
+                    <a href="#">Political Parties</a>
+                </div>
+                <div class="sidebar-menu">
+                    <a href="#">Voters</a>
+                </div>
+            </div>
+            <div class="content-detail">
+                <h3>Update Political party</h3>
+                <div class="party-container">
+                    <form>
+                        Party Name:<br>
+                        <input type="text" name="party name" required>
+                        <br>
+                        <br>
+                        <!-- for the tag line use text area since you are unsureof the length of the party slogan -->
+                        Tag Line:<br>
+                        <textarea rows="4" cols="50">
+                            
+                            </textarea>
+                        <br>
+                        <br>
+                        Party Leader:<br>
+                         <!-- creates a drop down menu for a list of candidates to be selected as party leader -->
+                         <select>
+                            <option value="default">select party leader</option>
+                            <option value="name1">Off-white James</option>
+                            <option value="name2">Liza Koshy</option>
+                            <option value="name3">Lilly Sihgn</option>
+                            <option value="name4">Charles Balenciaga</option>
+                          </select>
+                        
+                        <br>
+                        <br>
+                        
+                        <input type="submit" name="Create" value="update">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
