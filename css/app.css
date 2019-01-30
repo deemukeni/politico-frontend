@@ -1,0 +1,98 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.bg{
+    background-color: #B00020;
+}
+.h1home{
+    padding: 40px;	
+    font-size: 80px
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.container .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e2e2e2;
+}
+
+.container .navbar .banner {
+    padding: 20px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 21px;
+    color: #484848;
+    background-color: #e2e2e2;
+}
+
+.container .navbar .username {
+    padding: 20px 25px;
+    color: #0588ff;
+}
+
+.container .content{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container .content .sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #e2e2e2;
+    width: 16%;
+}
+
+.container .content .sidebar .sidebar-menu {
+    margin-top: 15px;
+}
+
+.container .content .sidebar .sidebar-menu a {
+    color: #0588ff;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container .content .content-detail {
+    width: 75%;
+}
+
+.container .content .content-detail h3 {
+    color: #797979;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.container .content .content-detail .parties-container {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .content .content-detail .parties-container .party-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container .content .content-detail .parties-container .party-detail .party-actions {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .content .content-detail .parties-container .party-detail .party-actions .edit {
+    color: green;
+    margin-right: 10px;
+}
+
+.container .content .content-detail .parties-container .party-detail .party-actions .delete {
+    color: red;
+}
