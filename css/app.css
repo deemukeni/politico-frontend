@@ -141,3 +141,10 @@ body {
 .container .content .content-detail .party-container .contestant-listing .contestants .delete{
     color: red;
 }
+
+.container .content .content-detail .party-container .btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 280px;
+}
