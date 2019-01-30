@@ -96,3 +96,48 @@ body {
 .container .content .content-detail .parties-container .party-detail .party-actions .delete {
     color: red;
 }
+
+/* party detail stylings */
+
+.container .content .content-detail .party-container {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .content .content-detail .party-container .title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.container .content .content-detail .party-container .contestant-listing {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.container .content .content-detail .party-container .contestant-listing .listing-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #797979;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.container .content .content-detail .party-container .contestant-listing .contestants{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container .content .content-detail .party-container .contestant-listing .contestants .edit{
+    color: green;
+}
+
+.container .content .content-detail .party-container .contestant-listing .contestants .delete{
+    color: red;
+}
