@@ -204,3 +204,48 @@ body {
     color: white;
     background-color: #0488ff;
 }
+.container .section .vote{
+    width: 100%;
+    margin-top: 2%;
+    
+}
+.container .section .index-content {
+}
+.container .section .index-content .paragraph{
+    color: #000000
+}
+
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 30;
+  width: 100%;
+  background-color:#757575;
+  color: white;
+  text-align: center;
+  height: 100px;
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  font-weight: bold;
+
+}
+.container .section .index-content .header{
+    font-size: 30px;
+    text-align: center;
+}
+
+.container .section .index-content .header .paragraph{
+    text-align: center;
+}
+
+.container .navbar .links {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
