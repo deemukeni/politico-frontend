@@ -186,11 +186,11 @@ body {
 }
 /* sign in */
 
-.container .signin-form{
+.container .auth-form{
     margin-left: 40%;
 }
 
-.container .signin-form input{
+.container .auth-form input{
     width: 300px;
     margin-top: 10px;
     height: 30px;
@@ -199,7 +199,7 @@ body {
     border: .5px solid #adadad;
 }
 
-.container .signin-form .btn  {
+.container .auth-form .btn  {
     border: none;
     color: white;
     background-color: #0488ff;
