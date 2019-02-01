@@ -246,6 +246,8 @@ body {
     display: flex;
     flex-direction: row;
 }
-
+.footer1{
+    margin-top: 188px;
+}
 
 
